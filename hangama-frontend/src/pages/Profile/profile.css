@@ -1,0 +1,37 @@
+.main-sidebar-body li.nav-item .nav-link.active {
+    background-color: #eaedf7;
+    position: relative;
+    z-index: 1;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 30px 0 0 30px;
+    margin-left: 0;
+    border: 0px solid transparent;
+    border-right: 0px;
+    width: inherit;
+    }
+    .products-tabel th, td {
+    font-size: 15px;
+    padding-left: 13px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid #ccc;
+    }
+    .bg-theme {
+    background-color: #2a76f4 !important;
+    color: #fff;
+    }
+    .products-tabel td i{    font-size: 10px;}
+    th{    padding-left: 13px;
+    padding-top: 8px;
+    padding-bottom: 8px;padding-right: 10px;}
+    .modals_body h4 {
+    font-size: 20px;
+    padding: 12px;
+    color: #fff;
+    background: #005e90;
+    text-align: center;
+    font-weight: 300;
+    line-height: 44px;
+    }
+    label{margin-bottom: 0px;margin-top: 10px;}

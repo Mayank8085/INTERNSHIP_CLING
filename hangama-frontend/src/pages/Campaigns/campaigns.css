@@ -1,0 +1,9 @@
+.campaigns-table{
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow:ellipsis;
+}
+.modal-bg{
+    background-color: black;
+    background-color: rgb(0 0 0 / 77%)
+}

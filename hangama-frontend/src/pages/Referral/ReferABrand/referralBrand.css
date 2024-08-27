@@ -1,0 +1,35 @@
+.modals_body h4 {
+    font-size: 20px;
+    padding: 12px;
+    color: #fff;
+    background: #005e90;
+    text-align: center;
+    font-weight: 300;
+    line-height: 44px;
+}
+.referral-code h4 {
+    color: #2a76f4;
+    font-weight: bold;
+    background: #e6e9f5;
+    width: 200px;
+    align-content: center;
+    margin: 0px auto;
+    border-radius: 4px;
+    padding: 13px;
+    box-shadow: -7.829px 11.607px 20px 0px #e4e3f5;
+
+    position: relative;
+
+    margin-bottom: -50px;
+}
+.referral-code h3 {
+    font-size: 27px;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #6259ca;
+    border-color: #6259ca;
+}
+.pb-40{
+    padding-bottom: 40px;
+}

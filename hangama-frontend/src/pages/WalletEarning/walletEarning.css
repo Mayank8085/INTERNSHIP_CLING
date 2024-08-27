@@ -1,0 +1,9 @@
+.cstm-width .col-xl-32 {
+    flex: 0 0 16.6%;
+    max-width: 25%;
+}
+
+  .cstm-width .col-xl-3 .heading {
+    font-size: 12px;
+
+}

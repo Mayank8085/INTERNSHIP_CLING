@@ -1,0 +1,145 @@
+.loading {
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .loading:before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(rgba(20, 20, 20, 0.8), rgba(0, 0, 0, 0.8));
+  
+    background: -webkit-radial-gradient(
+      rgba(20, 20, 20, 0.8),
+      rgba(0, 0, 0, 0.8)
+    );
+  }
+  
+  .loading:not(:required) {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .loading:not(:required):after {
+    content: "";
+    display: block;
+    font-size: 10px;
+    width: 1em;
+    height: 1em;
+    margin-top: -0.5em;
+    animation: spinner 150ms infinite linear;
+    animation: spinner 150ms infinite linear;
+    border-radius: 0.5em;
+    box-shadow: rgba(255, 255, 255, 0.75) 1.5em 0 0 0,
+      rgba(255, 255, 255, 0.75) 1.1em 1.1em 0 0,
+      rgba(255, 255, 255, 0.75) 0 1.5em 0 0,
+      rgba(255, 255, 255, 0.75) -1.1em 1.1em 0 0,
+      rgba(255, 255, 255, 0.75) -1.5em 0 0 0,
+      rgba(255, 255, 255, 0.75) -1.1em -1.1em 0 0,
+      rgba(255, 255, 255, 0.75) 0 -1.5em 0 0,
+      rgba(255, 255, 255, 0.75) 1.1em -1.1em 0 0;
+  }
+  
+  /* Animation */
+  
+  @keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Custom Scrollbar */
+  .chart-container {
+    overflow-x: scroll;
+    padding-bottom: 85px;
+  }
+  .modal-dialog {
+    max-width: 70% !important;
+  }
+  
+  .custom-filepicker-choose-input {
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    width: 170px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .custom-filepicker-browse-button {
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgba(211, 211, 211, 0.658);
+    cursor: pointer;
+    width: 80px;
+  }
+  
+  .video-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .therapist-suggestion {
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: gray;
+    color: #fff;
+    font-size: 16px;
+    flex-basis: 32%;
+    margin-top: 14px;
+    text-align: center;
+    cursor: pointer;
+    max-width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 10px;
+  }
+  
+  svg {
+    cursor: pointer;
+  }
+  
+  .modal-open {
+    overflow: hidden !important;
+  }
+  
+  .table-responsive .form-select {
+    padding: 0 10px !important;
+  }
+  
+  .img-true {
+    height: 60px;
+    width: 60px;
+  }
+  

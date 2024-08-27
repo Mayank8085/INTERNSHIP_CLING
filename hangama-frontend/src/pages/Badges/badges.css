@@ -1,0 +1,42 @@
+.actives
+  {
+    background: #cad4e4;
+    padding: 5px;
+    border: 1px solid #cad4e4;
+
+  }
+
+    .inactives
+  {
+        background: #ca5959;
+    padding: 5px;
+    border: 1px solid #ca5959
+  }
+
+  .modals_body h4 {
+    font-size: 20px;
+    padding: 12px;
+    color: #fff;
+    background: #005e90;
+    text-align: center;
+    font-weight: 300;
+    line-height: 44px;
+}
+.description
+{
+      background: #f2f4f4;
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+        font-weight: 500;
+    font-size: 16px;}
+
+    .badge-details
+    {
+      font-size: 15px;
+    }
+    .modal-scroll{
+      /* max-height: calc(100vh - 40px); */
+      overflow-y: auto;
+    }

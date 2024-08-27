@@ -1,0 +1,28 @@
+ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+         font-family: inherit;
+         font-weight: 500;
+         line-height: 1.1;
+         color: inherit;
+         font-family: 'Mulish', sans-serif;
+         }
+         body {
+         background: #eaedf7;font-family: 'Mulish', sans-serif;
+         }
+         #demo5{padding: 0px;}
+         .brands
+         {
+         text-align: center;
+         padding-top: 12px;
+         }	
+         .brands img{width: 70px;}
+         .timeline-heading h5{margin-top: 0px;}
+         .vtimeline .timeline-wrapper .timeline-panel{    padding: 8px;}
+         .vtimeline .timeline-wrapper .timeline-panel .timeline-title{    margin-top: 7px;}
+         .pagination-circled .page-link {
+         padding: 0;
+         width: 35px;
+         height: 35px;
+         border-radius: 15%;
+         margin-right: 10px;
+         }
+         .cmr-0{margin: 0px;}
